@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         <section
             id="home"
-            className="relative pt-32 pb-8 md:pt-40 md:pb-28"
+            className="relative pt-32 pb-8 md:pt-40 md:pb-16"
         >
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-50"
@@ -21,6 +21,8 @@ const Hero = () => {
                         </h1>
                         <p className="text-xl mb-8">
                             Seamless, reliable, and efficient shipping services tailored for your business.
+                            Trust us to handle your logistics needs with precision and care.
+                            From pharmaceuticals to fashion, food, and industrial equipment — we deliver across all sectors.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <a
@@ -34,12 +36,13 @@ const Hero = () => {
 
                     <div>
                         <Image
-                            src="https://i.pinimg.com/736x/0b/d4/41/0bd4410e70bac7ee64f634f2fa2412d7.jpg"
+                            src="/static/assets/ms/banner1.png"
                             alt="Logistics"
                             width={800}
                             height={500}
-                            className="w-full h-auto rounded-lg shadow-lg"
+                            className="w-full h-auto rounded-lg"
                         />
+                        {/* shadow-lg */}
                     </div>
                 </div>
             </div>

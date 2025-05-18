@@ -3,44 +3,50 @@ const Services = () => {
         {
             title: 'Air Freight',
             description:
-                'Fast and efficient air shipping solutions for urgent deliveries worldwide. We handle everything from documentation to customs clearance, ensuring your cargo arrives safely and on time.',
+                'Fast and efficient air shipping for urgent deliveries worldwide, with full documentation and customs support.',
             icon: '✈️',
         },
         {
-            title: 'Sea Freight',
+            title: 'Ocean Freight',
             description:
-                'Cost-effective sea shipping options for large and heavy consignments. We manage FCL and LCL shipments, providing flexible transit times.',
+                'Cost-effective ocean shipping solutions for large and bulk consignments. FCL and LCL options available.',
             icon: '🚢',
         },
         {
-            title: 'Land Freight',
+            title: 'Land Transportation',
             description:
-                'Reliable ground transportation for domestic and cross-border shipments. Our extensive network ensures timely delivery of goods via trucks and trailers.',
+                'Reliable domestic and cross-border transportation using trucks, trailers, chiller vans, and refrigerated trucks.',
             icon: '🚛',
         },
         {
-            title: 'Temperature-Controlled Warehouse',
+            title: 'Customs Clearance',
             description:
-                'Maintain the integrity of sensitive cargo with our temperature-controlled warehousing. Ideal for pharmaceuticals, food, and perishable items.',
-            icon: '🌡️',
-        },
-        {
-            title: 'E-Clearance',
-            description:
-                'Streamline customs clearance with our electronic documentation services. We handle all paperwork for smooth cross-border shipping.',
+                'Simplify international shipping with expert customs handling and e-clearance for seamless cargo movement.',
             icon: '📄',
         },
         {
-            title: 'Insurance',
+            title: 'Temperature-Controlled Logistics',
             description:
-                'Protect your shipments against potential risks with our comprehensive cargo insurance plans. Stay covered against loss, damage, or theft.',
-            icon: '🛡️',
+                'Secure storage and transport for pharmaceuticals and perishables using cool chain warehouses and refrigerated vehicles.',
+            icon: '🌡️',
         },
         {
-            title: 'Calogi Service',
+            title: 'Door-to-Door Delivery',
             description:
-                'Seamlessly manage freight and logistics transactions through Calogi – a comprehensive platform designed for efficiency and transparency.',
+                'End-to-end logistics solutions delivering goods directly to your customers’ doorstep with reliability and speed.',
+            icon: '📦',
+        },
+        {
+            title: 'Calogi Platform Services',
+            description:
+                'Digital freight and logistics management through Calogi – boosting efficiency and transaction transparency.',
             icon: '💻',
+        },
+        {
+            title: 'Marine Cargo Insurance',
+            description:
+                'Protect your shipments from risk with comprehensive insurance coverage for loss, damage, or theft.',
+            icon: '🛡️',
         },
     ];
 
@@ -51,11 +57,11 @@ const Services = () => {
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">Our Services</h2>
                     <div className="w-20 h-1 bg-red-600 mx-auto mb-4"></div>
                     <p className="text-gray-600 max-w-2xl mx-auto">
-                        Comprehensive shipping services tailored to meet your business needs – from freight to warehousing and beyond.
+                        End-to-end logistics solutions tailored for businesses of every size – from air freight to door delivery and beyond.
                     </p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                     {services.map((service, index) => (
                         <div
                             key={index}
@@ -73,3 +79,5 @@ const Services = () => {
 };
 
 export default Services;
+
+

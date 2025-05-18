@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const Footer = () => {
     const quickLinks = [
         { name: 'Home', href: '#home' },
@@ -28,7 +30,15 @@ const Footer = () => {
             <div className="container mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
                     <div className="mb-8 md:mb-0">
-                        <h3 className="text-2xl font-bold text-red-600 mb-4">Modern Star Shipping</h3>
+                        <h3 className="text-2xl font-bold text-red-600 mb-4">
+                            <Image
+                                src="/static/assets/ms/ms-logo.png"
+                                alt="Pharma Shipping"
+                                width={400}
+                                height={300}
+                                className="w-12 h-auto object-cover"
+                            />
+                        </h3>
                         <p className="text-gray-400">
                             Seamless, reliable, and efficient shipping solutions tailored to your business needs.
                         </p>
@@ -54,15 +64,15 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-bold mb-4">Contact Info</h4>
                         <address className="text-gray-400 not-italic">
-                            <p className="mb-2">2307 Beverley Rd</p>
-                            <p className="mb-2">Brooklyn, NY 11226, United States</p>
-                            <p className="mb-2">Phone: +1 212 425 8617</p>
-                            <p>Email: info@modernstarshipping.com</p>
+                            <p className="mb-2">MODERN STAR SHIPPING L.L.C.</p>
+                            <p className="mb-2">DUBAI, UAE.</p>
+                            <p className="mb-2">Phone: +971 55 34464 01</p>
+                            <p>Email: shiva@modernstarshipping.com</p>
                         </address>
                     </div>
 
                     <div>
-                        <h4 className="text-lg font-bold mb-4">Follow Us</h4>
+                        {/*  <h4 className="text-lg font-bold mb-4">Follow Us</h4>
                         <div className="flex space-x-4">
                             {socialLinks.map((social) => (
                                 <a
@@ -74,7 +84,7 @@ const Footer = () => {
                                     {social.icon}
                                 </a>
                             ))}
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 

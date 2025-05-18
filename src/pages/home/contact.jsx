@@ -112,7 +112,7 @@ const Contact = () => {
                                 <div>
                                     <h4 className="font-bold text-black mb-1">Office Location</h4>
                                     <p className="text-gray-600">
-                                        2307 Beverley Rd, Brooklyn, NY 11226, United States
+                                       Dubai - United Arab Emirates
                                     </p>
                                 </div>
                             </div>
@@ -121,7 +121,7 @@ const Contact = () => {
                                 <div className="bg-red-100 p-2 rounded-full mr-4">📧</div>
                                 <div>
                                     <h4 className="font-bold text-black mb-1">Email Us</h4>
-                                    <p className="text-gray-600">info@modernstarshipping.com</p>
+                                    <p className="text-gray-600">shiva@modernstarshipping.com</p>
                                 </div>
                             </div>
 
@@ -129,17 +129,17 @@ const Contact = () => {
                                 <div className="bg-red-100 p-2 rounded-full mr-4">📞</div>
                                 <div>
                                     <h4 className="font-bold text-black mb-1">Call Us</h4>
-                                    <p className="text-gray-600">+1 212 425 8617</p>
+                                    <p className="text-gray-600">+971 55 34464 01</p>
                                 </div>
                             </div>
 
                             <div className="pt-4">
-                                <h4 className="font-bold text-black mb-4">Follow Us</h4>
+                               {/*  <h4 className="font-bold text-black mb-4">Follow Us</h4>
                                 <div className="flex space-x-4">
                                     <a href="#" className="bg-gray-100 hover:bg-red-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors" aria-label="Facebook">📘</a>
                                     <a href="#" className="bg-gray-100 hover:bg-red-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors" aria-label="Twitter">🐦</a>
                                     <a href="#" className="bg-gray-100 hover:bg-red-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors" aria-label="LinkedIn">🔗</a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
