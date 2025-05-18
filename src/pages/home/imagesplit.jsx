@@ -12,10 +12,11 @@ const ImageTextSplit = () => {
                     </p>
                 </div>
 
-                <div className="flex flex-col lg:flex-row">
-                    <div className="lg:w-1/2 h-full flex gap-4 flex-col pr-0 lg:pr-8">
-                        <div className="flex-1 flex flex-col gap-4 md:flex-row">
-                            <div className="w-full md:w-1/2 bg-gray-100 px-3 py-2 flex flex-col justify-center rounded-xl">
+                <div className="flex flex-col lg:flex-row gap-8">
+                    <div className="lg:w-1/2 flex flex-col gap-8">
+                        {/* Row 1 - Pharma */}
+                        <div className="flex flex-col md:flex-row gap-4">
+                            <div className="w-full md:w-1/2 bg-gray-100 px-3 py-4 flex flex-col justify-center rounded-xl min-h-[200px]">
                                 <h3 className="text-4xl font-bold text-red-600 mb-4">Pharma (Cool Chain)</h3>
                                 <p className="text-gray-600">
                                     Specialized shipping for temperature-sensitive pharmaceuticals to ensure product integrity throughout the logistics chain.
@@ -23,7 +24,7 @@ const ImageTextSplit = () => {
                             </div>
                             <div className="w-full md:w-1/2 bg-gray-50 flex flex-col justify-center rounded-xl overflow-hidden">
                                 <Image
-                                    src="https://templates.sparklethings.com/kargix/wp-content/uploads/sites/51/2025/05/image-EEPZJ9X.jpg"
+                                    src="/static/assets/ms/tablet.jpg"
                                     alt="Pharma Shipping"
                                     width={400}
                                     height={300}
@@ -32,17 +33,18 @@ const ImageTextSplit = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 flex flex-col gap-4 md:flex-row">
+                        {/* Row 2 - Food & Beverage */}
+                        <div className="flex flex-col md:flex-row gap-4">
                             <div className="w-full md:w-1/2 bg-gray-50 flex flex-col justify-center rounded-xl overflow-hidden">
-                                <Image
-                                    src="https://templates.sparklethings.com/kargix/wp-content/uploads/sites/51/2025/05/image-XFFR336.jpg"
-                                    alt="Food & Beverage"
+                                 <Image
+                                    src="/static/assets/ms/food.jpg"
+                                    alt="Pharma Shipping"
                                     width={400}
                                     height={300}
                                     className="w-full h-full object-cover"
                                 />
                             </div>
-                            <div className="w-full md:w-1/2 bg-red-600 px-3 py-2 flex flex-col justify-center rounded-xl">
+                            <div className="w-full md:w-1/2 bg-red-600 px-3 py-4 flex flex-col justify-center rounded-xl min-h-[200px]">
                                 <h3 className="text-4xl font-bold text-white mb-4">Food & Beverage</h3>
                                 <p className="text-white">
                                     Safe, compliant transportation with temperature control for food and beverages, meeting all industry regulations.
@@ -51,10 +53,12 @@ const ImageTextSplit = () => {
                         </div>
                     </div>
 
-                    <div className="lg:w-1/2 h-full mt-8 lg:mt-0">
+                    {/* Right Side - Cosmetics */}
+                    <div className="lg:w-1/2 mt-8 lg:mt-0">
                         <div className="h-full w-full overflow-hidden rounded-lg relative">
                             <Image
-                                src="https://templates.sparklethings.com/kargix/wp-content/uploads/sites/51/2025/05/image-7Z2TRCC-2.jpg"
+                                //src="/static/assets/ms/cosmetic.jpg"
+                                src="https://i.pinimg.com/736x/fd/24/e4/fd24e40e013301751ef5f567b3063c56.jpg"
                                 alt="Cosmetics Logistics"
                                 width={600}
                                 height={400}

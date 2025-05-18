@@ -15,7 +15,7 @@ const About = () => {
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <div className="md:w-1/2">
                         <Image
-                            src="https://www.shutterstock.com/image-photo/semi-trailer-truck-driving-on-600nw-2300876247.jpg"
+                            src="https://img.freepik.com/premium-photo/miniature-medical-truck-logistics-setting-healthcare-emergency-supply-chain-concepts_411562-9734.jpg"
                             alt="About our company"
                             width={600}
                             height={400}

@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -44,7 +45,16 @@ const Header = () => {
                 <div className="flex justify-between items-center">
                     {/* Logo */}
                     <Link href="/" className="flex items-center">
-                        <span className="text-2xl font-bold text-red-600">LOGO</span>
+                        <span className="text-2xl font-bold text-red-600">
+                            
+                            <Image
+                                src="/static/assets/ms/ms-logo.png"
+                                alt="Pharma Shipping"
+                                width={400}
+                                height={300}
+                                className="w-12 h-auto object-cover"
+                            />
+                        </span>
                     </Link>
 
                     {/* Desktop Navigation */}

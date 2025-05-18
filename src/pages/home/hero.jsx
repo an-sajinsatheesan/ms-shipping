@@ -34,7 +34,7 @@ const Hero = () => {
 
                     <div>
                         <Image
-                            src="https://fastcompanyme.com/wp-content/uploads/2024/12/Logistic.jpg"
+                            src="https://i.pinimg.com/736x/0b/d4/41/0bd4410e70bac7ee64f634f2fa2412d7.jpg"
                             alt="Logistics"
                             width={800}
                             height={500}
