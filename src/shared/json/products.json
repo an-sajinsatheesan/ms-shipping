@@ -1,0 +1,134 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Enterprise Resource Planning"
+        },
+        {
+            "id": 2,
+            "title": "Human Resource Management System"
+        },
+        {
+            "id": 3,
+            "title": "Ticket System"
+        },
+        {
+            "id": 4,
+            "title": "Point Of Sale"
+        },
+        {
+            "id": 5,
+            "title": "Training Management"
+        }
+    ],
+    "Hrms": [
+        {
+            "title": "Payroll",
+            "content": "Simplify payroll processes, automate calculations, and ensure timely payments to your workforce.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Transactions",
+            "content": "Monitor and record all financial transactions related to employee compensation and benefits.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "HR Reports",
+            "content": "Generate comprehensive reports on employee demographics, performance, and other key HR metrics.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Charts and Custom Reports",
+            "content": "Create custom charts and reports to analyze trends and make data-driven HR decisions.",
+            "image": "/static/assets/hrms.png"
+        }
+    ],
+    "Erp": [
+        {
+            "title": "Inventory Management",
+            "content": "Manage stock levels, track inventory, and optimize warehousing for efficient supply chain management.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Customer Relationship Management",
+            "content": "Centralize customer information, manage interactions, and improve customer service with integrated CRM tools.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Financial Accounting",
+            "content": "Maintain financial records, manage accounts, and easily generate statements",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Supply Chain Management",
+            "content": "Optimize procurement, production, and logistics to ensure efficient supply chain operations and reduce costs.",
+            "image": "/static/assets/hrms.png"
+        }
+    ],
+    "TicketSystem": [
+        {
+            "title": "Ticket Creation",
+            "content": "Easily create support tickets, assign them to the right team, and track their progress until resolution.",
+            "image": "/static/assets/ticket-system.png"
+        },
+        {
+            "title": "Ticket Management",
+            "content": "Organize and prioritize tickets, set deadlines, and ensure timely resolution with robust management tools.",
+            "image": "/static/assets/ticket-system.png"
+        },
+        {
+            "title": "Customer Communication",
+            "content": "Streamline communication with customers through automated responses, updates, and feedback collection.",
+            "image": "/static/assets/ticket-system.png"
+        },
+        {
+            "title": "Analytics and Reporting",
+            "content": "Generate reports on ticket trends, resolution times, and team performance for continuous improvement.",
+            "image": "/static/assets/ticket-system.png"
+        }
+    ],
+    "PosSystem": [
+        {
+            "title": "Sales Processing",
+            "content": "Quickly process sales transactions, apply discounts, and manage receipts with an intuitive interface.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Customer Management",
+            "content": "Maintain customer profiles, track purchase history, and offer personalized promotions to boost loyalty.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Reporting and Analytics",
+            "content": "Analyze sales data, monitor staff performance, and generate comprehensive reports to optimize operations.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Payment Processing",
+            "content": "Accept multiple payment methods, including credit cards, digital wallets, and cash, with secure processing.",
+            "image": "/static/assets/hrms.png"
+        }
+    ],
+    "TrainingManagement": [
+        {
+            "title": "Course Enrollment",
+            "content": "Simplify enrollment by enabling employees to easily sign up for courses and monitor their learning progress.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Training Materials Management",
+            "content": "Distribute training materials, such as documents, videos, and presentations, ensuring universal accessibility.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Progress Tracking",
+            "content": "Monitor employee training progress, efficiently tracking course completions, assessments, and certifications.",
+            "image": "/static/assets/hrms.png"
+        },
+        {
+            "title": "Feedback and Assessment",
+            "content": "Collect participant feedback and assess understanding using quizzes and surveys to enhance future training.",
+            "image": "/static/assets/hrms.png"
+        }
+    ]
+}

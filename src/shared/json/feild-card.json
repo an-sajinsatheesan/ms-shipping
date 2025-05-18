@@ -1,0 +1,96 @@
+{
+    "serviceSector": [
+        {
+            "id": 1,
+            "col": "bg-bl",
+            "img": "/static/assets/govt.svg",
+            "mainTitle": "Government",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        },
+        {
+            "id": 2,
+            "col": "bg-grey",
+            "img": "/static/assets/bank.svg",
+            "mainTitle": "Banking",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        },
+        {
+            "id": 3,
+            "col": "bg-org",
+            "img": "/static/assets/construct.svg",
+            "mainTitle": "Construction",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        },
+        {
+            "id": 4,
+            "col": "bg-green",
+            "img": "/static/assets/retail.svg",
+            "mainTitle": "Retail",
+            "subTitle": "We provide tailored solutions and expertise to streamline operations and enhance efficiency within government agencies"
+        }
+    ],
+    "featureSector": [
+        {
+            "id": 1,
+            "col": "bg-bl",
+            "img": "/static/assets/approval.svg",
+            "mainTitle": "Annual Leave calculation",
+            "subTitle": "We provide automated leave tracking and approvals, ensuring accurate, compliant, and efficient leave management."
+        },
+        {
+            "id": 2,
+            "col": "bg-grey",
+            "img": "/static/assets/bank.svg",
+            "mainTitle": "Variable Allowance / Deductions",
+            "subTitle": "We offer automated solutions for managing allowances and deductions, ensuring accurate and compliant payroll."
+        },
+        {
+            "id": 3,
+            "col": "bg-org",
+            "img": "/static/assets/construct.svg",
+            "mainTitle": "Payroll Preparation",
+            "subTitle": "We provide automated payroll preparation, ensuring timely, accurate, and compliant employee compensation processes."
+        },
+        {
+            "id": 4,
+            "col": "bg-green",
+            "img": "/static/assets/allocation.svg",
+            "mainTitle": "Shift Allocations",
+            "subTitle": "We offer efficient shift allocation solutions, optimizing workforce management based on operational needs."
+        },
+        {
+            "id": 5,
+            "col": "bg-yellow",
+            "img": "/static/assets/monitoring.svg",
+            "mainTitle": "OT Processing",
+            "subTitle": "We provide automated overtime tracking and payment solutions, ensuring accurate compensation for extra hours worked."
+        }
+    ],
+    "specialBenefits": [
+        {
+            "id": 1,
+            "title": "Customized Tailored Solutions",
+            "subTitle": "From understanding client needs to delivering customized solutions, we ensure each project aligns perfectly with your business objectives."
+        },
+        {
+            "id": 2,
+            "title": "Innovative Technology",
+            "subTitle": "Leveraging the latest technologies, we provide cutting-edge solutions that drive efficiency and innovation across all your digital platforms."
+        },
+        {
+            "id": 3,
+            "title": "Seamless Integration",
+            "subTitle": "We provide seamless integration with existing systems, enabling smooth transitions and enhancing overall operational efficiency."
+        },
+        {
+            "id": 4,
+            "title": "Client-Centric Approach",
+            "subTitle": "We prioritize our clients' needs, offering personalized service and flexible solutions to ensure their success and satisfaction."
+        },
+        {
+            "id": 5,
+            "title": "Ongoing Continuous Support",
+            "subTitle": "We offer ongoing support and maintenance to ensure your solutions remain effective and up-to-date as your business grows."
+        }
+    ]
+}

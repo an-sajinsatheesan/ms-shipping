@@ -1,0 +1,39 @@
+{
+  "name": "accinge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/lab": "^5.0.0-alpha.145",
+    "@mui/material": "^5.14.10",
+    "@types/node": "20.5.9",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "aos": "^3.0.0-beta.6",
+    "autoprefixer": "^10.4.15",
+    "bootstrap": "^5.3.1",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.4.19",
+    "lucide-react": "^0.511.0",
+    "next": "13.4.19",
+    "postcss": "^8.4.41",
+    "postcss-loader": "^8.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "^0.32.5",
+    "tailwindcss": "^3.3.3",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "sass": "^1.66.1"
+  }
+}

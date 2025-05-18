@@ -1,0 +1,345 @@
+{
+    "industries": [
+        {
+            "id": 1,
+            "title": "Human Resource Management System",
+            "Description": "HRMS systems aim to improve efficiency, reduce paperwork, enhance data accuracy, and offer HR professionals valuable insights into workforce analytics!",
+            "Img": "/static/assets/government.webp",
+            "url": "hrms"
+        },
+        {
+            "id": 2,
+            "title": "Enterprise Resource Planning",
+            "Description": "ERP integrates diverse firm procedures and activities, such as finance and human resources into an integrated software system to improve efficiency in operations, data exchange, and decision-making!",
+            "Img": "/static/assets/banking.webp",
+            "url": "erp"
+        },
+        {
+            "id": 3,
+            "title": "Training Management",
+            "Description": "Training management includes employee education program planning, scheduling, and monitoring in order to improve skills, legal compliance and overall workforce growth!",
+            "Img": "/static/assets/training.webp",
+            "url": "training-management"
+        },
+        {
+            "id": 4,
+            "title": "Email Management",
+            "Description": "Email management consists of sorting, categorizing, and archiving emails properly in order to streamline communication and ensure vital information is readily accessible!",
+            "Img": "/static/assets/tourism.webp",
+            "url": "email-management"
+        },
+        {
+            "id": 5,
+            "title": "CAMP Management",
+            "Description": "Camp management is responsible for the planning and administration of activities and resources at campgrounds and staff's safety, well-being, and enjoyment!",
+            "Img": "/static/assets/vansales.webp",
+            "url": "CAMP-management"
+        },
+        {
+            "id": 6,
+            "title": "Asset Tracking",
+            "Description": "Asset tracking is tracking and upholding the assets of a business, such as equipment, cars, or inventory, in order to maximize their use, reduce loss, and increase efficiency!",
+            "Img": "/static/assets/construction.webp",
+            "url": "asset-tracking"
+        }
+    ],
+    "bankingIndustries": [
+        {
+            "id": 1,
+            "title": "Sales Incentive Management System",
+            "Description": "HRMS systems aim to improve efficiency, reduce paperwork, enhance data accuracy, and offer HR professionals valuable insights into workforce analytics!",
+            "Img": "/static/assets/government.webp",
+            "url": "sales-incentive-management-system"
+        },
+        {
+            "id": 2,
+            "title": "Employee Banking Management Software",
+            "Description": "ERP integrates diverse firm procedures and activities, such as finance and human resources into an integrated software system to improve efficiency in operations, data exchange, and decision-making!",
+            "Img": "/static/assets/banking.webp",
+            "url": "employee-banking-management-software"
+        },
+        {
+            "id": 3,
+            "title": "Virtual Relationship Management",
+            "Description": "Training management includes employee education program planning, scheduling, and monitoring in order to improve skills, legal compliance and overall workforce growth!",
+            "Img": "/static/assets/training.webp",
+            "url": "virtual-relationship-management"
+        },
+        {
+            "id": 4,
+            "title": "Contact Management",
+            "Description": "Contact Management consists of sorting, categorizing, and archiving emails properly in order to streamline communication and ensure vital information is readily accessible!",
+            "Img": "/static/assets/tourism.webp",
+            "url": "contact-management-software"
+        },
+        {
+            "id": 5,
+            "title": "SMS & Mailing Management",
+            "Description": "Camp management is responsible for the planning and administration of activities and resources at campgrounds and staff's safety, well-being, and enjoyment!",
+            "Img": "/static/assets/vansales.webp",
+            "url": "mailing-management"
+        },
+        {
+            "id": 6,
+            "title": "Asset Tracking",
+            "Description": "Asset tracking is tracking and upholding the assets of a business, such as equipment, cars, or inventory, in order to maximize their use, reduce loss, and increase efficiency!",
+            "Img": "/static/assets/construction.webp",
+            "url": "asset-tracking"
+        }
+    ],
+    "constructionIndustries": [
+        {
+            "id": 1,
+            "title": "Labour Camp Management",
+            "Description": "HRMS systems aim to improve efficiency, reduce paperwork, enhance data accuracy, and offer HR professionals valuable insights into workforce analytics!",
+            "Img": "/static/assets/government.webp",
+            "url": "labour-camp-management"
+        },
+        {
+            "id": 2,
+            "title": "Accounting & Inventory Management Software",
+            "Description": "ERP integrates diverse firm procedures and activities, such as finance and human resources into an integrated software system to improve efficiency in operations, data exchange, and decision-making!",
+            "Img": "/static/assets/banking.webp",
+            "url": "accounting-inventory-management-software"
+        },
+        {
+            "id": 3,
+            "title": "Enterprise HR And Payroll Management Software",
+            "Description": "Training management includes employee education program planning, scheduling, and monitoring in order to improve skills, legal compliance and overall workforce growth!",
+            "Img": "/static/assets/training.webp",
+            "url": "erp"
+        },
+        {
+            "id": 4,
+            "title": "ERP Solutions",
+            "Description": "Email management consists of sorting, categorizing, and archiving emails properly in order to streamline communication and ensure vital information is readily accessible!",
+            "Img": "/static/assets/tourism.webp",
+            "url": "erp-solutions"
+        },
+        {
+            "id": 5,
+            "title": "CAMP Management",
+            "Description": "Camp management is responsible for the planning and administration of activities and resources at campgrounds and staff's safety, well-being, and enjoyment!",
+            "Img": "/static/assets/vansales.webp",
+            "url": "CAMP-management"
+        },
+        {
+            "id": 6,
+            "title": "Asset Tracking",
+            "Description": "Asset tracking is tracking and upholding the assets of a business, such as equipment, cars, or inventory, in order to maximize their use, reduce loss, and increase efficiency!",
+            "Img": "/static/assets/construction.webp",
+            "url": "asset-tracking"
+        }
+    ],
+    "retailIndustries": [
+        {
+            "id": 1,
+            "title": "Human Resource Management System",
+            "Description": "HRMS systems aim to improve efficiency, reduce paperwork, enhance data accuracy, and offer HR professionals valuable insights into workforce analytics!",
+            "Img": "/static/assets/government.webp",
+            "url": "hrms"
+        },
+        {
+            "id": 2,
+            "title": "Service CRM",
+            "Description": "ERP integrates diverse firm procedures and activities, such as finance and human resources into an integrated software system to improve efficiency in operations, data exchange, and decision-making!",
+            "Img": "/static/assets/banking.webp",
+            "url": "service-crm"
+        },
+        {
+            "id": 3,
+            "title": "Mobile Suite",
+            "Description": "Training management includes employee education program planning, scheduling, and monitoring in order to improve skills, legal compliance and overall workforce growth!",
+            "Img": "/static/assets/training.webp",
+            "url": "mobile-suite"
+        },
+        {
+            "id": 4,
+            "title": "Van Sales Management",
+            "Description": "Email management consists of sorting, categorizing, and archiving emails properly in order to streamline communication and ensure vital information is readily accessible!",
+            "Img": "/static/assets/tourism.webp"
+        },
+        {
+            "id": 5,
+            "title": "Contact Management",
+            "Description": "Camp management is responsible for the planning and administration of activities and resources at campgrounds and staff's safety, well-being, and enjoyment!",
+            "Img": "/static/assets/vansales.webp",
+            "url": "contact-management"
+        },
+        {
+            "id": 6,
+            "title": "Asset Tracking Management",
+            "Description": "Asset tracking is tracking and upholding the assets of a business, such as equipment, cars, or inventory, in order to maximize their use, reduce loss, and increase efficiency!",
+            "Img": "/static/assets/construction.webp",
+            "url": "asset-tracking"
+        }
+    ],
+    "brands": [
+        {
+            "id": 1,
+            "Img": "/static/assets/client-bw/honda.webp"
+        },
+        {
+            "id": 2,
+            "Img": "/static/assets/client-bw/carrefour.webp"
+        },
+        {
+            "id": 3,
+            "Img": "/static/assets/client-bw/ethihadrail.webp"
+        },
+        {
+            "id": 4,
+            "Img": "/static/assets/client-bw/itc.webp"
+        },
+        {
+            "id": 5,
+            "Img": "/static/assets/client-bw/standc.webp"
+        },
+        {
+            "id": 6,
+            "Img": "/static/assets/client-bw/british.webp"
+        }
+    ],
+    "digital": [
+        {
+            "id": 1,
+            "Img": "/static/assets/client-color/itc_logo.png",
+            "width": 200,
+            "height": 65
+        },
+        {
+            "id": 2,
+            "Img": "/static/assets/client-color/logo_cupola.png",
+            "width": 200,
+            "height": 65
+        },
+        {
+            "id": 3,
+            "Img": "/static/assets/client-color/ethihad.png",
+            "width": 185,
+            "height": 50
+        },
+        {
+            "id": 4,
+            "Img": "/static/assets/client-color/day-to-day.png",
+            "width": 185,
+            "height": 50
+        },
+        {
+            "id": 5,
+            "Img": "/static/assets/client-color/fab-1.png",
+            "width": 165,
+            "height": 50
+        },
+        {
+            "id": 6,
+            "Img": "/static/assets/client-color/bat.png",
+            "width": 132,
+            "height": 50
+        },
+        {
+            "id": 7,
+            "Img": "/static/assets/client-color/hp.png",
+            "width": 143,
+            "height": 50
+        },
+        {
+            "id": 8,
+            "Img": "/static/assets/client-color/vox.png",
+            "width": 102,
+            "height": 70
+        },
+        {
+            "id": 9,
+            "Img": "/static/assets/client-color/sc.png",
+            "width": 147,
+            "height": 50
+        },
+        {
+            "id": 10,
+            "Img": "/static/assets/client-color/transguard.png",
+            "width": 90,
+            "height": 50
+        },
+        {
+            "id": 11,
+            "Img": "/static/assets/client-color/lukoil-logo.png",
+            "width": 185,
+            "height": 50
+        },
+        {
+            "id": 12,
+            "Img": "/static/assets/client-color/km-trading.png",
+            "width": 185,
+            "height": 50
+        },
+        {
+            "id": 13,
+            "Img": "/static/assets/client-color/logo_cupola.png",
+            "width": 200,
+            "height": 65
+        },
+        {
+            "id": 14,
+            "Img": "/static/assets/client-color/ethihad.png",
+            "width": 185,
+            "height": 50
+        },
+        {
+            "id": 15,
+            "Img": "/static/assets/client-color/honda-logo.png",
+            "width": 200,
+            "height": 65
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "title": "Web Development",
+            "Img": "/static/assets/icons/computer.svg"
+        },
+        {
+            "id": 2,
+            "title": "App Development",
+            "Img": "/static/assets/icons/mobile.svg"
+        },
+        {
+            "id": 3,
+            "title": "Data Security",
+            "Img": "/static/assets/icons/lock.svg"
+        },
+        {
+            "id": 4,
+            "title": "UI/UX Design",
+            "Img": "/static/assets/icons/pen.svg"
+        },
+        {
+            "id": 5,
+            "title": "Graphic Design",
+            "Img": "/static/assets/icons/graphic.svg"
+        },
+        {
+            "id": 6,
+            "title": "Digital Marketing",
+            "Img": "/static/assets/icons/speakerphone.svg"
+        }
+    ],
+
+    "products": [
+        {
+            "id": 1,
+            "title": "Web Development",
+            "Img": "/static/assets/icons/computer.svg"
+        },
+        {
+            "id": 2,
+            "title": "App Development",
+            "Img": "/static/assets/icons/mobile.svg"
+        },
+        {
+            "id": 3,
+            "title": "Data Security",
+            "Img": "/static/assets/icons/lock.svg"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "industryHeading": {
+        "heading": "Industries",
+        "mainTitle": "We are touch with",
+        "subTitle": "We maintain a strong presence in diverse industries, staying in touch with evolving trends and technologies to deliver tailored solutions that drive success across various sectors"
+    },
+    "aboutUs": {
+        "heading": "What sets us apart?",
+        "mainTitle": "We have 15 years of valuable experience that we bring to our work.",
+        "subTitle": "Our team is committed to delivering high-quality, user-focused solutions that meet your unique needs and exceed your expectations."
+    },
+    "Digitilization": {
+        "heading": "Partners",
+        "mainTitle": "Together Towards Digitalization",
+        "subTitle": "Join us on our journey towards digitalization,where we harness cutting-edge technology, innovation, and collaboration to create a future where connectivity and efficiency define every aspect of our world."
+    },
+    "Technology": {
+        "heading": "Technology",
+        "mainTitle": "Services We Offer",
+        "subTitle": "We assist clients to implement robust solutions that are aligned with their digital strategy by building on our years of expertise in application design and development."
+    },
+    "Products": {
+        "heading": "Products",
+        "mainTitle": "Our Products",
+        "subTitle": "We deliver innovative and tailored solutions, leveraging cutting-edge technology to meet our clients' unique needs and drive their digital transformation."
+    },
+    "feilds": {
+        "heading": "Service Sectors",
+        "mainTitle": "We have brought for you",
+        "subTitle": "We maintain a strong presence in diverse industries, staying in touch with evolving trends and technologies to deliver tailored solutions that drive success across various sectors"
+    },
+
+    "products": {
+        "heading": "OVERVIEW",
+        "mainTitle": "Human Resource Management System",
+        "subTitle": "HRMS (Human Resource Management Systems) are comprehensive software solutions designed to streamline various HR processes within an organization. These systems play a pivotal role in enhancing overall HR efficiency by automating and simplifying tasks that were traditionally time-consuming and paper-intensive.One of the key benefits of HRMS systems is their ability to significantly reduce paperwork. By digitizing employee records, performance appraisals, benefits administration, and other HR-related documents, organizations can save both time and resources previously allocated to manual documentation and storage."
+    },
+
+    "benefits": {
+        "heading": "BENEFITS",
+        "mainTitle": "What makes us special ?"
+    },
+
+    "expertise": {
+        "heading": "INTRODUCION",
+        "mainTitle": "What our Human Resource Management System Enables"
+    }
+
+}
