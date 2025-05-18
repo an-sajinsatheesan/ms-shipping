@@ -33,6 +33,7 @@
     "typescript": "5.2.2"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.11.1",
     "@types/aos": "^3.0.7",
     "sass": "^1.66.1"
   }
