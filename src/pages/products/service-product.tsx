@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import React, { useEffect, useState } from 'react';
-import Industries from '../home/landing-industries/industries';
-import Box from '@mui/material/Box';
+ import Box from '@mui/material/Box';
 import Tab from '@mui/material/Tab';
 import TabContext from '@mui/lab/TabContext';
 import TabList from '@mui/lab/TabList';
@@ -42,7 +41,7 @@ const ProductsServices: React.FC = () => {
                                 <Tab label="Retail" value="4" />
                             </TabList>
                         </Box>
-                        <TabPanel value="1">
+                        {/* <TabPanel value="1">
                             <h1 className='max-w-4xl mx-auto w-100 text-sm leading-8 text-center py-4 px-3 text-slate-900 md:pb-4' data-aos="fade-left">Revolutionizing Government Operations by Harnessing Cutting-Edge, Secure, and Future-Ready Technology Solutions for Enhanced Efficiency, Transparency, and Seamless Citizen Engagement, Leading the Way in Transforming Public Services.</h1>
                             <Industries IndustryList={IndustryList.industries} isShowHeading={false} />
                         </TabPanel>
@@ -54,7 +53,7 @@ const ProductsServices: React.FC = () => {
                             <Industries IndustryList={IndustryList.constructionIndustries} isShowHeading={false} /></TabPanel>
                         <TabPanel value="4">
                             <h1 className='max-w-4xl mx-auto w-100 text-sm leading-8 text-center py-4 px-3 text-slate-900 md:pb-4' data-aos="fade-left">Elevating Retail Success by Unleashing Innovative Solutions for Enhanced Customer Experience, Operational Excellence, Data-Driven Insights, and Seamless Omnichannel Integration, Redefining Retailing in the Digital Age.</h1>
-                            <Industries IndustryList={IndustryList.retailIndustries} isShowHeading={false} /></TabPanel>
+                            <Industries IndustryList={IndustryList.retailIndustries} isShowHeading={false} /></TabPanel> */}
                     </TabContext>
                 </Box>
 

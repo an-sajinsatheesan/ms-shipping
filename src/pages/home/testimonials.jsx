@@ -1,4 +1,4 @@
-import { useState } from 'react';
+/* import { useState } from 'react';
 
 const Testimonials = () => {
   const testimonials = [
@@ -112,4 +112,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Testimonials; */

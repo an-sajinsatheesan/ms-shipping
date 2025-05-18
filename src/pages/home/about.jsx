@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const About = () => {
     return (
         <section id="about" className="py-16 bg-white">
@@ -12,16 +14,18 @@ const About = () => {
 
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <div className="md:w-1/2">
-                        <img
+                        <Image
                             src="https://www.shutterstock.com/image-photo/semi-trailer-truck-driving-on-600nw-2300876247.jpg"
                             alt="About our company"
+                            width={600}
+                            height={400}
                             className="rounded-lg shadow-lg"
                         />
                     </div>
                     <div className="md:w-1/2">
                         <h3 className="text-2xl font-bold mb-4 text-black">Our Story</h3>
                         <p className="text-gray-600 mb-6">
-                            Whether you’re shipping locally or internationally, we provide comprehensive solutions designed to meet your unique business needs. From air freight and temperature-controlled warehousing to customs clearance and insurance – we ensure your cargo arrives on time, every time.
+                            Whether you&apos;re shipping locally or internationally, we provide comprehensive solutions designed to meet your unique business needs. From air freight and temperature-controlled warehousing to customs clearance and insurance – we ensure your cargo arrives on time, every time.
                         </p>
                         <ul className="space-y-3">
                             <li className="flex items-center">

@@ -1,10 +1,11 @@
+import Image from 'next/image';
+
 const Hero = () => {
     return (
         <section
             id="home"
             className="relative pt-32 pb-8 md:pt-40 md:pb-28"
         >
-            {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-50"
                 style={{
@@ -14,7 +15,6 @@ const Hero = () => {
 
             <div className="container mx-auto px-4 relative z-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                    {/* Left Content */}
                     <div className="max-w-2xl">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
                             Delivering Excellence in Shipping Solutions – Worldwide
@@ -29,15 +29,15 @@ const Hero = () => {
                             >
                                 Get a Free Quote
                             </a>
-                            
                         </div>
                     </div>
 
-                    {/* Right Image - Now visible on all screens */}
                     <div>
-                        <img
+                        <Image
                             src="https://fastcompanyme.com/wp-content/uploads/2024/12/Logistic.jpg"
                             alt="Logistics"
+                            width={800}
+                            height={500}
                             className="w-full h-auto rounded-lg shadow-lg"
                         />
                     </div>

@@ -36,17 +36,15 @@ const Stats = () => {
         }, interval);
 
         return () => clearInterval(timer);
-    }, []);
+    }, [targetCounters.clients, targetCounters.countries, targetCounters.deliveries, targetCounters.fleet]);
 
     return (
         <section
             className="relative py-16 bg-cover bg-center text-white"
             style={{ backgroundImage: 'url("https://www.meta-pharma.com/wp-content/uploads/2021/07/Feature-Imagemp.jpg")' }}
         >
-            {/* Overlay */}
             <div className="absolute inset-0 bg-gray-900 bg-opacity-60 z-0"></div>
 
-            {/* Stats Content */}
             <div className="container mx-auto px-4 relative z-10">
                 <div className="text-center mb-12">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Statistics</h2>

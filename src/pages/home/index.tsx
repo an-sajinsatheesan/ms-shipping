@@ -6,7 +6,7 @@ import About from './about';
 import Services from './service';
 import Stats from './stats';
 import WhyUs from './why';
-import Testimonials from './testimonials';
+/* import Testimonials from './testimonials'; */
 import Contact from './contact';
 import ImageTextSplit from './imagesplit';
 

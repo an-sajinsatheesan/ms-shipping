@@ -37,12 +37,11 @@ const Contact = () => {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                    {/* Left Column - Contact Form */}
                     <div className="bg-gray-50 p-8 rounded-lg shadow-md">
                         <h3 className="text-2xl font-bold mb-6 text-black">Send us a message</h3>
                         {submitted ? (
                             <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-6">
-                                Thank you for your message! We'll get back to you soon.
+                                Thank you for your message! We&apos;ll get back to you soon.
                             </div>
                         ) : null}
                         <form onSubmit={handleSubmit} className="space-y-6">
@@ -99,7 +98,6 @@ const Contact = () => {
                         </form>
                     </div>
 
-                    {/* Right Column - Contact Info */}
                     <div className="p-4">
                         <h3 className="text-2xl font-bold mb-6 text-black">Get in Touch with Us</h3>
                         <p className="text-gray-600 mb-8">

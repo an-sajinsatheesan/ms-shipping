@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const ImageTextSplit = () => {
     return (
         <section className="py-16 bg-white">
@@ -20,9 +22,11 @@ const ImageTextSplit = () => {
                                 </p>
                             </div>
                             <div className="w-full md:w-1/2 bg-gray-50 flex flex-col justify-center rounded-xl overflow-hidden">
-                                <img
+                                <Image
                                     src="https://templates.sparklethings.com/kargix/wp-content/uploads/sites/51/2025/05/image-EEPZJ9X.jpg"
                                     alt="Pharma Shipping"
+                                    width={400}
+                                    height={300}
                                     className="w-full h-full object-cover"
                                 />
                             </div>
@@ -30,9 +34,11 @@ const ImageTextSplit = () => {
 
                         <div className="flex-1 flex flex-col gap-4 md:flex-row">
                             <div className="w-full md:w-1/2 bg-gray-50 flex flex-col justify-center rounded-xl overflow-hidden">
-                                <img
+                                <Image
                                     src="https://templates.sparklethings.com/kargix/wp-content/uploads/sites/51/2025/05/image-XFFR336.jpg"
                                     alt="Food & Beverage"
+                                    width={400}
+                                    height={300}
                                     className="w-full h-full object-cover"
                                 />
                             </div>
@@ -47,9 +53,11 @@ const ImageTextSplit = () => {
 
                     <div className="lg:w-1/2 h-full mt-8 lg:mt-0">
                         <div className="h-full w-full overflow-hidden rounded-lg relative">
-                            <img
+                            <Image
                                 src="https://templates.sparklethings.com/kargix/wp-content/uploads/sites/51/2025/05/image-7Z2TRCC-2.jpg"
                                 alt="Cosmetics Logistics"
+                                width={600}
+                                height={400}
                                 className="w-full h-full object-cover"
                             />
                             <div className="w-full md:w-2/4 bg-white px-3 py-5 flex flex-col justify-center rounded-xl absolute left-4 top-4 shadow-lg">
