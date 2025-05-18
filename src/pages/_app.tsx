@@ -58,6 +58,10 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
                     name="twitter:card"
                     content="summary_large_image"
                 />
+                <link
+          href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+          rel="stylesheet"
+        />
             </Head>
 
 
