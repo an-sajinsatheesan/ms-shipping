@@ -5,8 +5,7 @@ import Hero from './hero';
 import About from './about';
 import Services from './service';
 import Stats from './stats';
-import WhyUs from './why';
-/* import Testimonials from './testimonials'; */
+import WhyUs from './why'; 
 import Contact from './contact';
 import ImageTextSplit from './imagesplit';
 
@@ -23,8 +22,7 @@ const Landing: NextPageWithLayout = () => {
             <About />
             <Services />
             <WhyUs />
-            <Stats /> 
-            {/* <Testimonials /> */}
+            <Stats />  
             <Contact />
         </>
 
