@@ -1,4 +1,16 @@
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const WhyUs = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+        });
+    }, []);
+
     const features = [
         {
             title: 'Global Reach',
@@ -25,7 +37,7 @@ const WhyUs = () => {
     return (
         <section id="why-us" className="py-16 bg-white">
             <div className="container mx-auto px-4">
-                <div className="text-center mb-12">
+                <div className="text-center mb-12" data-aos="fade-up">
                     <h2 className="text-3xl md:text-4xl font-bold mb-4 text-black">Why Choose Us</h2>
                     <div className="w-20 h-1 bg-red-600 mx-auto mb-4"></div>
                     <p className="text-gray-600 max-w-2xl mx-auto">
@@ -35,7 +47,12 @@ const WhyUs = () => {
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {features.map((feature, index) => (
-                        <div key={index} className="flex items-start mb-8">
+                        <div
+                            key={index}
+                            className="flex items-start mb-8"
+                            data-aos="fade-up"
+                            data-aos-delay="100"
+                        >
                             <div className="bg-red-100 p-2 rounded-full mr-4 mt-1">
                                 <svg
                                     className="w-6 h-6 text-red-600"

@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import { Parallax } from 'react-parallax';
+
 
 const Stats = () => {
     const [counters, setCounters] = useState({
@@ -39,41 +41,43 @@ const Stats = () => {
     }, [targetCounters.clients, targetCounters.countries, targetCounters.deliveries, targetCounters.fleet]);
 
     return (
-        <section
-            className="relative py-16 bg-cover bg-center text-white"
-            style={{ backgroundImage: 'url("https://www.meta-pharma.com/wp-content/uploads/2021/07/Feature-Imagemp.jpg")' }}
+        <Parallax
+            bgImage="https://www.meta-pharma.com/wp-content/uploads/2021/07/Feature-Imagemp.jpg"
+            strength={900}
         >
-            <div className="absolute inset-0 bg-gray-900 bg-opacity-60 z-0"></div>
+            <section className="py-16 bg-gray-900 bg-opacity-60 text-white">
+                <div className="absolute inset-0 bg-gray-900 bg-opacity-60 z-0"></div>
 
-            <div className="container mx-auto px-4 relative z-10">
-                <div className="text-center mb-12">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Statistics</h2>
-                    <div className="w-20 h-1 bg-red-600 mx-auto mb-4"></div>
-                    <p className="text-white max-w-2xl mx-auto">
-                        Trusted globally by businesses of all sizes for reliable and efficient logistics.
-                    </p>
-                </div>
+                <div className="container mx-auto px-4 relative z-10">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Our Statistics</h2>
+                        <div className="w-20 h-1 bg-red-600 mx-auto mb-4"></div>
+                        <p className="text-white max-w-2xl mx-auto">
+                            Trusted globally by businesses of all sizes for reliable and efficient logistics.
+                        </p>
+                    </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-                    <div className="p-4">
-                        <div className="text-4xl md:text-5xl font-bold mb-2">{counters.clients}+</div>
-                        <div className="text-lg">Happy Clients</div>
-                    </div>
-                    <div className="p-4">
-                        <div className="text-4xl md:text-5xl font-bold mb-2">{counters.countries}+</div>
-                        <div className="text-lg">Countries Served</div>
-                    </div>
-                    <div className="p-4">
-                        <div className="text-4xl md:text-5xl font-bold mb-2">{counters.deliveries}+</div>
-                        <div className="text-lg">Successful Deliveries</div>
-                    </div>
-                    <div className="p-4">
-                        <div className="text-4xl md:text-5xl font-bold mb-2">{counters.fleet}+</div>
-                        <div className="text-lg">Fleet Vehicles</div>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                        <div className="p-4">
+                            <div className="text-4xl md:text-5xl font-bold mb-2">{counters.clients}+</div>
+                            <div className="text-lg">Happy Clients</div>
+                        </div>
+                        <div className="p-4">
+                            <div className="text-4xl md:text-5xl font-bold mb-2">{counters.countries}+</div>
+                            <div className="text-lg">Countries Served</div>
+                        </div>
+                        <div className="p-4">
+                            <div className="text-4xl md:text-5xl font-bold mb-2">{counters.deliveries}+</div>
+                            <div className="text-lg">Successful Deliveries</div>
+                        </div>
+                        <div className="p-4">
+                            <div className="text-4xl md:text-5xl font-bold mb-2">{counters.fleet}+</div>
+                            <div className="text-lg">Fleet Vehicles</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </Parallax>
     );
 };
 

@@ -28,7 +28,7 @@ const Footer = () => {
     return (
         <footer className="bg-black text-white py-12">
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
                     <div className="mb-8 md:mb-0">
                         <h3 className="text-2xl font-bold text-red-600 mb-4">
                             <Image
@@ -71,8 +71,8 @@ const Footer = () => {
                         </address>
                     </div>
 
-                    <div>
-                        {/*  <h4 className="text-lg font-bold mb-4">Follow Us</h4>
+                    {/* <div>
+                         <h4 className="text-lg font-bold mb-4">Follow Us</h4>
                         <div className="flex space-x-4">
                             {socialLinks.map((social) => (
                                 <a
@@ -84,8 +84,8 @@ const Footer = () => {
                                     {social.icon}
                                 </a>
                             ))}
-                        </div> */}
-                    </div>
+                        </div>
+                    </div> */}
                 </div>
 
                 <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
