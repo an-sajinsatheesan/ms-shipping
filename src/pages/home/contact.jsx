@@ -4,25 +4,79 @@ const Contact = () => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
+        phone: '',
         message: '',
     });
 
     const [submitted, setSubmitted] = useState(false);
+    const [isLoading, setIsLoading] = useState(false);
+    const [error, setError] = useState('');
+    const [emailError, setEmailError] = useState('');
+
+    const validateEmail = (email) => {
+        const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return re.test(email);
+    };
 
     const handleChange = (e) => {
         const { name, value } = e.target;
+        
+        if (name === 'email') {
+            if (value && !validateEmail(value)) {
+                setEmailError('Please enter a valid email address');
+            } else {
+                setEmailError('');
+            }
+        }
+
         setFormData((prev) => ({
             ...prev,
             [name]: value,
         }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
-        setSubmitted(true);
-        setFormData({ name: '', email: '', message: '' });
-        setTimeout(() => setSubmitted(false), 5000);
+        
+        // Validate email before submission
+        if (!validateEmail(formData.email)) {
+            setEmailError('Please enter a valid email address');
+            return;
+        }
+
+        setIsLoading(true);
+        setError('');
+
+        try {
+            const response = await fetch('https://sheetdb.io/api/v1/ojxovloinsszo', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    data: [{
+                        name: formData.name,
+                        email: formData.email,
+                        phone: formData.phone,
+                        message: formData.message,
+                        timestamp: new Date().toISOString(),
+                    }]
+                }),
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to submit form');
+            }
+
+            setSubmitted(true);
+            setFormData({ name: '', email: '', phone: '', message: '' });
+            setTimeout(() => setSubmitted(false), 5000);
+        } catch (err) {
+            setError('There was an error submitting your message. Please try again.');
+            console.error('Submission error:', err);
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     return (
@@ -44,10 +98,15 @@ const Contact = () => {
                                 Thank you for your message! We&apos;ll get back to you soon.
                             </div>
                         ) : null}
-                        <form onSubmit={handleSubmit} className="space-y-6">
+                        {error && (
+                            <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-6">
+                                {error}
+                            </div>
+                        )}
+                        <form onSubmit={handleSubmit} className="space-y-3">
                             <div>
                                 <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
-                                    Name
+                                    Name <span className="text-red-600">*</span>
                                 </label>
                                 <input
                                     type="text"
@@ -61,7 +120,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
-                                    Email
+                                    Email <span className="text-red-600">*</span>
                                 </label>
                                 <input
                                     type="email"
@@ -70,12 +129,27 @@ const Contact = () => {
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
+                                    className={`w-full px-4 py-2 border ${emailError ? 'border-red-500' : 'border-gray-300'} rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600`}
+                                />
+                                {emailError && <p className="text-red-500 text-sm mt-1">{emailError}</p>}
+                            </div>
+                            <div>
+                                <label htmlFor="phone" className="block text-gray-700 font-medium mb-2">
+                                    Phone Number
+                                </label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    value={formData.phone}
+                                    onChange={handleChange}
                                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-600"
+                                    placeholder="+971 55 123 4567"
                                 />
                             </div>
                             <div>
                                 <label htmlFor="message" className="block text-gray-700 font-medium mb-2">
-                                    Message
+                                    Message <span className="text-red-600">*</span>
                                 </label>
                                 <textarea
                                     id="message"
@@ -90,9 +164,10 @@ const Contact = () => {
                             <div>
                                 <button
                                     type="submit"
-                                    className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition-colors w-full"
+                                    disabled={isLoading || emailError}
+                                    className={`bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition-colors w-full ${isLoading || emailError ? 'opacity-75 cursor-not-allowed' : ''}`}
                                 >
-                                    Send Message
+                                    {isLoading ? 'Sending...' : 'Send Message'}
                                 </button>
                             </div>
                         </form>
@@ -101,10 +176,10 @@ const Contact = () => {
                     <div className="p-4">
                         <h3 className="text-2xl font-bold mb-6 text-black">Get in Touch with Us</h3>
                         <p className="text-gray-600 mb-8">
-                            Stay connected with us and get the latest shipping updates and logistics insights. Follow us on social media or contact our support team for more information.
+                            Stay connected with us and get the latest shipping updates and logistics insights.
                         </p>
 
-                        <div className="space-y-6">
+                        <div className="space-y-6 md:space-y-14">
                             <div className="flex items-start">
                                 <div className="bg-red-100 p-2 rounded-full mr-4">
                                     📍
@@ -112,7 +187,7 @@ const Contact = () => {
                                 <div>
                                     <h4 className="font-bold text-black mb-1">Office Location</h4>
                                     <p className="text-gray-600">
-                                       Dubai - United Arab Emirates
+                                        Dubai - United Arab Emirates
                                     </p>
                                 </div>
                             </div>
@@ -131,15 +206,6 @@ const Contact = () => {
                                     <h4 className="font-bold text-black mb-1">Call Us</h4>
                                     <p className="text-gray-600">+971 55 34464 01</p>
                                 </div>
-                            </div>
-
-                            <div className="pt-4">
-                               {/*  <h4 className="font-bold text-black mb-4">Follow Us</h4>
-                                <div className="flex space-x-4">
-                                    <a href="#" className="bg-gray-100 hover:bg-red-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors" aria-label="Facebook">📘</a>
-                                    <a href="#" className="bg-gray-100 hover:bg-red-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors" aria-label="Twitter">🐦</a>
-                                    <a href="#" className="bg-gray-100 hover:bg-red-600 hover:text-white w-10 h-10 rounded-full flex items-center justify-center transition-colors" aria-label="LinkedIn">🔗</a>
-                                </div> */}
                             </div>
                         </div>
                     </div>
