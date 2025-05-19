@@ -67,7 +67,7 @@ const Header = () => {
                             shiva@modernstarshipping.com
                         </a>
                         <a href="tel:+971553446401" className="text-black hover:text-red-600 font-medium">
-                            +971 55 34464 01-2
+                            +971 55 34464 01
                         </a>
                     </div>
 
