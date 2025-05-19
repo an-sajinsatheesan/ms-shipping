@@ -28,7 +28,7 @@ const ImageTextSplit = () => {
                         {/* Pharma */}
                         <div className="flex flex-col md:flex-row gap-4 md:items-stretch">
                             <div
-                                className="w-full md:w-1/2 bg-gray-100 px-4 py-5 flex flex-col justify-center rounded-xl min-h-[200px] h-full"
+                                className="w-full md:w-1/2 bg-gray-100 px-4 py-6 flex flex-col justify-center rounded-xl min-h-[265px] h-full"
                                 data-aos="fade-right"
                                 data-aos-delay="100"
                             >
@@ -38,7 +38,7 @@ const ImageTextSplit = () => {
                                 </p>
                             </div>
                             <div
-                                className="w-full md:w-1/2 bg-gray-50 rounded-xl overflow-hidden min-h-[200px] h-full flex"
+                                className="w-full md:w-1/2 bg-gray-50 rounded-xl overflow-hidden min-h-[265px] h-full flex"
                                 data-aos="zoom-in"
                                 data-aos-delay="200"
                             >
@@ -55,7 +55,7 @@ const ImageTextSplit = () => {
                         {/* Food */}
                         <div className="flex flex-col md:flex-row gap-4 md:items-stretch">
                             <div
-                                className="w-full md:w-1/2 bg-gray-50 rounded-xl overflow-hidden min-h-[200px] h-full flex"
+                                className="w-full md:w-1/2 bg-gray-50 rounded-xl overflow-hidden min-h-[265px] h-full flex"
                                 data-aos="fade-left"
                                 data-aos-delay="300"
                             >
@@ -68,7 +68,7 @@ const ImageTextSplit = () => {
                                 />
                             </div>
                             <div
-                                className="w-full md:w-1/2 bg-red-600 px-4 py-5 flex flex-col justify-center rounded-xl min-h-[200px] h-full"
+                                className="w-full md:w-1/2 bg-red-600 px-4 py-6 flex flex-col justify-center rounded-xl min-h-[265px] h-full"
                                 data-aos="fade-up"
                                 data-aos-delay="150"
                             >
@@ -85,7 +85,7 @@ const ImageTextSplit = () => {
                         {/* Cosmetics */}
                         <div className="flex flex-col md:flex-row gap-4 md:items-stretch">
                             <div
-                                className="w-full md:w-1/2 bg-gray-100 px-4 py-5 flex flex-col justify-center rounded-xl min-h-[200px] h-full"
+                                className="w-full md:w-1/2 bg-gray-100 px-4 py-6 flex flex-col justify-center rounded-xl min-h-[265px] h-full"
                                 data-aos="fade-down"
                                 data-aos-delay="250"
                             >
@@ -95,9 +95,9 @@ const ImageTextSplit = () => {
                                 </p>
                             </div>
                             <div
-                                className="w-full md:w-1/2 bg-gray-50 rounded-xl overflow-hidden min-h-[200px] h-full flex"
+                                className="w-full md:w-1/2 bg-gray-50 rounded-xl overflow-hidden min-h-[265px] h-full flex"
                                 data-aos="flip-left"
-                                data-aos-delay="350"
+                                data-aos-delay="300"
                             >
                                 <Image
                                     src="/static/assets/ms/cosmetic.png" // You may want to update this image path
@@ -112,7 +112,7 @@ const ImageTextSplit = () => {
                         {/* Medical Equipment / General / Vape */}
                         <div className="flex flex-col md:flex-row gap-4 md:items-stretch">
                             <div
-                                className="w-full md:w-1/2 bg-gray-50 rounded-xl overflow-hidden min-h-[200px] h-full flex"
+                                className="w-full md:w-1/2 bg-gray-50 rounded-xl overflow-hidden min-h-[265px] h-full flex"
                                 data-aos="fade-up-right"
                                 data-aos-delay="400"
                             >
@@ -125,7 +125,7 @@ const ImageTextSplit = () => {
                                 />
                             </div>
                             <div
-                                className="w-full md:w-1/2 bg-red-600 px-4 py-5 flex flex-col justify-center rounded-xl min-h-[200px] h-full"
+                                className="w-full md:w-1/2 bg-red-600 px-4 py-6 flex flex-col justify-center rounded-xl min-h-[265px] h-full"
                                 data-aos="zoom-in-up"
                                 data-aos-delay="200"
                             >
