@@ -48,7 +48,7 @@ const Contact = () => {
         setError('');
 
         try {
-            const response = await fetch('https://sheetdb.io/api/v1/ojxovloinsszo', {
+            const response = await fetch('https://sheetdb.io/api/v1/ldwx9dw6nc0a5', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

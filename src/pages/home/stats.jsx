@@ -12,7 +12,7 @@ const Stats = () => {
 
     const targetCounters = {
         clients: 1250,
-        countries: 35,
+        countries: 15,
         deliveries: 12500,
         fleet: 220,
     };

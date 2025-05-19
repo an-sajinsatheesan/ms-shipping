@@ -32,7 +32,7 @@ const Header = () => {
     };
 
     return (
-        <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-2'}`}>
+        <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-white py-2'}`}>
             <div className="container mx-auto px-4">
                 <div className="flex justify-between items-center">
                     {/* Logo */}
@@ -67,7 +67,7 @@ const Header = () => {
                             shiva@modernstarshipping.com
                         </a>
                         <a href="tel:+971553446401" className="text-black hover:text-red-600 font-medium">
-                            +971 55 34464 01
+                            +971 55 34464 01-2
                         </a>
                     </div>
 
