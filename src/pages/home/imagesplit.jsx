@@ -129,9 +129,9 @@ const ImageTextSplit = () => {
                                 data-aos="zoom-in-up"
                                 data-aos-delay="200"
                             >
-                                <h3 className="text-2xl font-bold text-white mb-4">Medical / General / Vape</h3>
+                                <h3 className="text-2xl font-bold text-white mb-4">Medical & all type of general commodity goods</h3>
                                 <p className="text-white">
-                                    Reliable logistics for medical devices, general goods, and vape products.
+                                    Reliable logistics for all type of general goods
                                 </p>
                             </div>
                         </div>

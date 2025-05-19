@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
     const quickLinks = [
@@ -31,13 +32,16 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
                     <div className="mb-8 md:mb-0">
                         <h3 className="text-2xl font-bold text-red-600 mb-4">
-                            <Image
-                                src="/static/assets/ms/ms-logo.png"
-                                alt="Pharma Shipping"
-                                width={400}
-                                height={300}
-                                className="w-12 h-auto object-cover"
-                            />
+                            <Link href="/" className="flex items-center">
+                                <Image
+                                    src="/static/assets/ms/ms-logo.png"
+                                    alt="Modern Star Shipping"
+                                    width={400}
+                                    height={300}
+                                    className="w-16 h-auto object-cover"
+                                />
+                                <span className="ml-3 text-base font-semibold text-white uppercase">Modern Star Shipping LLC</span>
+                            </Link>
                         </h3>
                         <p className="text-gray-400">
                             Seamless, reliable, and efficient shipping solutions tailored to your business needs.

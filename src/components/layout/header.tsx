@@ -32,7 +32,7 @@ const Header = () => {
     };
 
     return (
-        <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
+        <header className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-2'}`}>
             <div className="container mx-auto px-4">
                 <div className="flex justify-between items-center">
                     {/* Logo */}
@@ -42,9 +42,9 @@ const Header = () => {
                             alt="Modern Star Shipping"
                             width={400}
                             height={300}
-                            className="w-12 h-auto object-cover"
+                            className="w-16 h-auto object-cover"
                         />
-                        <span className="ml-3 text-base font-semibold text-black">Modern Star Shipping LLC</span>
+                        <span className="ml-3 text-base font-semibold text-black uppercase">Modern Star Shipping LLC</span>
                     </Link>
 
                     {/* Center Nav */}

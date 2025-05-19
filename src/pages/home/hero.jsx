@@ -13,8 +13,7 @@ const Hero = () => {
     const phrases = [
         'Delivering Excellence in Shipping Solutions',
         'Global Logistics Partner',
-        'Your Trusted Shipping Provider',
-        'Worldwide Transportation Services'
+        'Your Trusted Shipping Provider'
     ];
 
     useEffect(() => { 
